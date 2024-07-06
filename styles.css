@@ -59,3 +59,14 @@ a:visited {
 .first-link {
     margin-top: 5px;
 }
+
+.img-container {
+    width: 500px;
+    height: auto;
+    margin: 15px auto 0 auto;
+}
+
+.odin {
+    width: 500px;
+    height: auto;
+}
