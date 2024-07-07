@@ -27,7 +27,8 @@ a:visited {
     text-decoration: none;
 }
 
-.title {
+.title,
+.title-salmon {
     width: 700px;
     height: auto;
     margin: 10px auto;
@@ -66,7 +67,61 @@ a:visited {
     margin: 15px auto 0 auto;
 }
 
+.food-container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.food {
+    width: 800px;
+    height: auto;
+    
+}
+
 .odin {
     width: 500px;
     height: auto;
+}
+
+.salmon {
+    background-color: salmon;
+    color: rgb(255, 228, 225);
+}
+
+.title-salmon {
+    background-color: rgb(255, 171, 162);
+}
+
+.description,
+.description-salmon {
+    
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description-salmon {
+    background-color: rgb(255, 171, 162);
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.ingredients,
+.steps {
+    margin: 0 0 10px 30px;
+}
+
+ol {
+    width: 800px;
+    margin-left: 12px;
+}
+
+li {
+    margin-bottom: 5px;
 }
